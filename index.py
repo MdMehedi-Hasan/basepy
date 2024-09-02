@@ -22,10 +22,13 @@ while i<20:
 
 # range
 
-tableRange = range(2,5)
+tableRange = range(2,6,3)
+range2 = range(1,11)
 
-for x in tableRange:
-    print(x)
+for y in tableRange:
+    for x in range2:
+        result = x*y
+        print(y, "*", x ,"=", result)
 
 # function
 

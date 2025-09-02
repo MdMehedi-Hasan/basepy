@@ -35,3 +35,7 @@ for y in tableRange:
 def first_Function(num):
     print("inside function",num)
 first_Function(5)
+
+# tuple 
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)

@@ -20,6 +20,13 @@ while i<20:
     print(i)
     i = i+1
 
+# range
+
+tableRange = range(2,5)
+
+for x in tableRange:
+    print(x)
+
 # function
 
 def first_Function(num):
